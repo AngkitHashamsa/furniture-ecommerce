@@ -1,10 +1,16 @@
 import { Outlet } from 'react-router-dom';
+import Navbar from '../navbar/Navbar';
 
 function Layout() {
   return (
-    <div>
-      <Outlet />
-    </div>
+    <>
+      <Navbar />
+      <main className="relative top-14 min-h-[calc(100vh-3.5rem)] w-full  ">
+        <div className="mx-auto  w-11/12 max-w-5xl ">
+          <Outlet />
+        </div>
+      </main>
+    </>
   );
 }
 
