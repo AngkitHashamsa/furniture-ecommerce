@@ -60,6 +60,12 @@
           "then"
         ]
       }
+    ],
+    "no-param-reassign": [
+      "off"
+    ],
+    "no-unused-vars": [
+      "off"
     ]
   }
 }
