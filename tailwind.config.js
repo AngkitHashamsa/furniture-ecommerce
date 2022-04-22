@@ -4,5 +4,5 @@ module.exports = {
     extend: {},
   },
   // eslint-disable-next-line global-require
-  plugins: [require('tw-elements/dist/plugin')],
+  plugins: [require('tw-elements/dist/plugin'), require('@tailwindcss/forms')],
 };
