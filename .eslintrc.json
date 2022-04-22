@@ -3,7 +3,12 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["plugin:react/recommended", "react-app/jest", "airbnb", "prettier"],
+  "extends": [
+    "plugin:react/recommended",
+    "react-app/jest",
+    "airbnb",
+    "prettier"
+  ],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -11,7 +16,9 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react"],
+  "plugins": [
+    "react"
+  ],
   "rules": {
     "comma-dangle": [
       "error",
@@ -27,10 +34,14 @@
       "off",
       {
         "allow": null,
-        "extensions": [".jsx"]
+        "extensions": [
+          ".jsx"
+        ]
       }
     ],
-    "react/react-in-jsx-scope": ["off"],
+    "react/react-in-jsx-scope": [
+      "off"
+    ],
     "react/sort-prop-types": [
       "error",
       {
@@ -39,6 +50,15 @@
         "requiredFirst": true,
         "sortShapeProp": true,
         "noSortAlphabetically": false
+      }
+    ],
+    "no-restricted-exports": [
+      "off",
+      {
+        "restrictedNamedExports": [
+          "default",
+          "then"
+        ]
       }
     ]
   }
