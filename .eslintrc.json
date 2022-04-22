@@ -31,7 +31,6 @@
       }
     ],
     "react/react-in-jsx-scope": ["off"],
-    "max-len": ["error", { "code": 120 }],
     "react/sort-prop-types": [
       "error",
       {
